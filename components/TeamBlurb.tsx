@@ -14,7 +14,7 @@ function TeamBlurb() {
             width="100"
             />
             <h2 className='rounded-lg border border-transparent px-5 py-4 transition-colors'>John Maeda</h2>
-            <p className='text-xs text-gray-700 px-6 pb-4'>The average rule of the digital transformation something is that you'll never have the resources
+            <p className='text-xs text-gray-700 px-6 pb-4'>The average rule of the digital transformation something is that you&#39;ll never have the resources
             to design experiences like Apple. But you can always close most usability gaps with an awesome something experience.</p>
           </div>
 
