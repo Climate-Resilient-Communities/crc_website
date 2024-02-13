@@ -24,12 +24,12 @@ const Footer = () => {
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-6">
           <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
           <p className='text-xs pb-2'>
-            Let's Connect for Change!
+            Let&#39;s Connect for Change!
           </p>
           <p className='text-xs pb-2'>
            Have questions, ideas, or just want
-           to say hello? We'd love to hear from you! Reach out to us 
-           through the channels below and let's collaborate for a 
+           to say hello? We&#39;d love to hear from you! Reach out to us 
+           through the channels below and let&#39;s collaborate for a 
            resilient and just future.
            </p>
            <p className='text-xs'>

@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import React from 'react'
-import Partnerships from './Partnerships'
 
 function About() {
   return (
@@ -34,7 +32,7 @@ function About() {
       <p className="text-white">
       Welcome to our vibrant community of change-makers! As a Project Contributor, 
       you will contribute to the collective effort of building a resilient and just 
-      future. Whether you're passionate about data analytics, software development, 
+      future. Whether you&#39;re passionate about data analytics, software development, 
       community engagement and partnership, or cross-functional collaboration, your 
       role is integral to driving meaningful community impact
       </p>
