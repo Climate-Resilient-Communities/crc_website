@@ -8,23 +8,23 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 const Header = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#E7ECEE'); 
-    const [linkColor, setLinkColor] = useState('#E7ECEE'); 
+    const [navBg, setNavBg] = useState('#FBFEFE'); 
+    const [linkColor, setLinkColor] = useState('#FBFEFE'); 
 
     const handleNav = () => {
         setNav(!nav);
       };
 
-      useEffect(() => {
-        const handleShadow = () => {
-          if (window.scrollY >= 5) {
-            setShadow(true);
-          } else {
-            setShadow(false);
-          }
-        };
-        window.addEventListener('scroll', handleShadow);
-      }, []);
+    //   useEffect(() => {
+    //     const handleShadow = () => {
+    //       if (window.scrollY >= 5) {
+    //         setShadow(true);
+    //       } else {
+    //         setShadow(false);
+    //       }
+    //     };
+    //     window.addEventListener('scroll', handleShadow);
+    //   }, []);
 
   return (
     <div 
@@ -34,18 +34,18 @@ const Header = () => {
         <div className='flex justify-between items-center w-full h-full px-5 2xl:px-16'>
           <Link href="/" passHref>
             <h1 className="link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white">
-              Climate Resilience
+              CRC
             </h1>
           </Link>
 
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                <Link href='/'>
+                <Link href='#aboutSection'>
                     <li className='rounded-lg bg-green-700 p-2 ml-0 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>About</li>
                 </Link>
-                <Link href='/#skills'>
+                {/* <Link href='/#skills'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Tool/Learning</li>
-                </Link>
+                </Link> */}
                 <Link href='/contributor'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Contributors</li>
                 </Link>

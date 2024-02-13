@@ -15,21 +15,21 @@ const Navbar = () => {
         setNav(!nav);
       };
 
-      useEffect(() => {
-        const handleShadow = () => {
-          if (window.scrollY >= 5) {
-            setShadow(true);
-          } else {
-            setShadow(false);
-          }
-        };
-        window.addEventListener('scroll', handleShadow);
-      }, []);
+      // useEffect(() => {
+      //   const handleShadow = () => {
+      //     if (window.scrollY >= 5) {
+      //       setShadow(true);
+      //     } else {
+      //       setShadow(false);
+      //     }
+      //   };
+      //   window.addEventListener('scroll', handleShadow);
+      // }, []);
 
   return (
     <div 
     style={{backgroundColor: `${navBg}`}}
-    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    className={shadow ? 'fixed w-full h-20 z-[100]' : 'fixed w-full h-20 z-[100]'}>
 
         <div className='flex justify-between items-center w-full h-full px-5 2xl:px-16'>
           <Link href="/" passHref>
