@@ -61,7 +61,7 @@ const Header = () => {
             </ul>
             {/* hamburger menu */}
             <div
-            style={{ color: `${linkColor}` }}
+            style={{ color: `black` }}
             onClick={handleNav}
             className='md:hidden cursor-pointer mr-5'
           >
@@ -118,11 +118,6 @@ const Header = () => {
                   About
                 </li>
               </Link>
-              <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Tool/Learning
-                </li>
-              </Link>
               <Link href='/contributor'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contributors
@@ -168,14 +163,6 @@ const Header = () => {
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <BsFillPersonLinesFill />
                   </div>
                 </Link>
               </div>

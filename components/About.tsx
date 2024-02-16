@@ -5,7 +5,7 @@ function About() {
 <section id="aboutSection" className="px-2 py-4 pt-20 bg-gray-100 text-center">
   <div className="max-w mx-auto grid grid-cols-1 lg:grid-cols-2">
     {/* Column 1: Image */}
-    <div className="">
+    <div className="order-1 lg:order-none">
       <img
         src="/puzzle.png"  // Replace with the path to your image
         alt="About Image"
@@ -14,7 +14,7 @@ function About() {
     </div>
 
     {/* Column 2: About Section */}
-    <div className=" bg-[#B20D48] p-8 rounded-lg relative flex flex-col items-center">
+    <div className=" bg-[#B20D48] p-8 rounded-lg relative flex flex-col items-center order-2 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">About Our Organization</h2>
       <p className="text-white">
       We aim to bridge the gap between top-down climate plans and grassroots actions, 
@@ -27,7 +27,7 @@ function About() {
     </div>
 
     {/* Column 3: Contributor Section */}
-    <div className="flex flex-col items-center bg-green-500 p-8 rounded-lg">
+    <div className="flex flex-col items-center bg-green-500 p-8 rounded-lg order-4 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Become a Contributor</h2>
       <p className="text-white">
       Welcome to our vibrant community of change-makers! As a Project Contributor, 
@@ -42,7 +42,7 @@ function About() {
     </div>
 
       {/* Column 4: Image */}
-      <div className="">
+      <div className="order-3 lg:order-none">
       <img
         src="/contributor.jpeg"  // Replace with the path to your image
         alt="About Image"
@@ -51,7 +51,7 @@ function About() {
     </div>
 
         {/* Column 5: Image */}
-        <div className="">
+        <div className="order-5 lg:order-none">
       <img
         src="/collaborator.jpeg"  // Replace with the path to your image
         alt="Collaborator Image"
@@ -60,7 +60,7 @@ function About() {
     </div>
 
     {/* Column 6: Collaborator Section */}
-    <div className=" bg-[#240DB2] p-8 rounded-lg relative flex flex-col items-center">
+    <div className=" bg-[#240DB2] p-8 rounded-lg relative flex flex-col items-center order-6 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Collaborate for Impact</h2>
       <p className="text-white">
       Whether you are NPOs, government agencies, academic groups or community groups, 
@@ -73,7 +73,7 @@ function About() {
     </div>
 
     {/* Column 3: The Team Section */}
-    <div className="flex flex-col items-center bg-[#B2770D] p-8 rounded-lg">
+    <div className="flex flex-col items-center bg-[#B2770D] p-8 rounded-lg order-8 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">The Team</h2>
       <p className="text-white">
       At the core of CRC lies a passionate team committed to driving positive 
@@ -87,7 +87,7 @@ function About() {
     </div>
 
       {/* Column 4: Image */}
-      <div className="">
+      <div className="order-7 lg:order-none">
       <img
         src="/contributor.jpeg"  // Replace with the path to your image
         alt="About Image"
