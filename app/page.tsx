@@ -8,6 +8,7 @@ import Landing from '@/components/Landing'
 export default function Home() {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <Header />
       <main className='relative h-[200vh] bg-[#FBFEFE]'>
         <Landing />
