@@ -14,9 +14,7 @@ export default function Home() {
         <Landing />
       </main>
       <section id="aboutSection" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'>
-        <div className=''>
         <About />
-        </div>
       </section>
       <Footer />
     </div>
