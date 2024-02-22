@@ -3,7 +3,7 @@ import React from 'react'
 
 function Landing() {
   return (
-    <section className='sticky top-0 mx-auto flex h-[calc(100dvh)] w-full items-center
+    <section className='sticky top-0 mx-auto flex h-[calc(100svh)] w-full items-center
     justify-between px-8 bg-no-repeat bg-center bg-cover'
     style={{ backgroundImage: 'url("/landing_image.jpeg")', backgroundColor: 'rgba(0, 0, 0, 0.75)' }}
     >
