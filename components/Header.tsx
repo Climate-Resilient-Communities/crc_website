@@ -167,7 +167,7 @@ const Header = () => {
                 </a>
                 <Link href='/#contact'>
                   <div
-                    onClick={() => setNav(!nav)}
+                    onClick={handleDrawerButtonClick}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
@@ -183,53 +183,3 @@ const Header = () => {
 }
 
 export default Header
-
-
-
-
-
-
-
-// import Link from 'next/link';
-// import React from 'react';
-
-// function Header() {
-//   return (
-//     <header className='sticky top-0 z-30 flex w-full items-center justify-between bg-[#E7ECEE] p-6'>
-//         <div className='flex items-center justify-center'>
-//         <div className='relative cursor-pointer opacity-75 transition hover:opacity-100'>
-//             <Link href="/" passHref>
-//             <h1 className="link ml-5 cursor-pointer hover:text-bold text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white">
-//               Climate Resilience
-//             </h1>
-//           </Link>
-//         </div>
-//         </div>
-
-//         <div>
-//             <ul className='hidden mr-5 flex-1 items-center justify-center space-x-8 md:flex'>
-//                 <Link href='/'>
-//                     <li className="headerLink">About</li>
-//                 </Link>
-//                 <Link href='/'>
-//                     <li className='headerLink'>Tool/Learning</li>
-//                 </Link>
-//                 <Link href='/contributor'>
-//                     <li className='headerLink'>Contributors</li>
-//                 </Link>
-//               <Link href='#partnerships'>
-//                     <li className='headerLink'>Partnerships</li>
-//                 </Link>
-//                 <Link href='#ourTeam'>
-//                     <li className='headerLink'style={{ whiteSpace: 'nowrap' }}>Our Team</li>
-//                 </Link>
-//                 <Link href=''>
-//                     <li className='headerLink'>Contact</li>
-//                 </Link>
-//             </ul>
-//         </div>
-//     </header>
-//   )
-// }
-
-// export default Header
