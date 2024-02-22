@@ -5,19 +5,15 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Landing from '@/components/Landing'
 
-<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-
 export default function Home() {
   return (
     <div>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <Header />
-      <main className='relative h-[200vh] bg-[#FBFEFE]'>
-        <Landing />
-      </main>
-      <section id="about" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'>
+    <Landing />
+
+      {/* <section id="about" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'> */}
         <About />
-      </section>
+      {/* </section> */}
       <Footer />
     </div>
   )
