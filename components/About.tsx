@@ -2,10 +2,10 @@ import React from 'react'
 
 function About() {
   return (
-<section id="aboutSection" className="px-2 py-4 pt-20 bg-gray-100 text-center">
+<section id="about" className="px-2 py-4 bg-gray-100 text-center">
   <div className="max-w mx-auto grid grid-cols-1 lg:grid-cols-2">
     {/* Column 1: Image */}
-    <div className="order-1 lg:order-none">
+    <div id="about" className="scroll-mt-20 order-1 lg:order-none">
       <img
         src="/puzzle.png"  // Replace with the path to your image
         alt="About Image"
@@ -42,7 +42,7 @@ function About() {
     </div>
 
       {/* Column 4: Image */}
-      <div className="order-3 lg:order-none">
+      <div id="contributor" className="scroll-mt-20 order-3 lg:order-none">
       <img
         src="/contributor.jpeg"  // Replace with the path to your image
         alt="About Image"
@@ -51,7 +51,7 @@ function About() {
     </div>
 
         {/* Column 5: Image */}
-        <div className="order-5 lg:order-none">
+        <div id="collaborators" className="scroll-mt-20 order-5 lg:order-none">
       <img
         src="/collaborator.jpeg"  // Replace with the path to your image
         alt="Collaborator Image"
@@ -87,7 +87,7 @@ function About() {
     </div>
 
       {/* Column 4: Image */}
-      <div className="order-7 lg:order-none">
+      <div id="team" className="scroll-mt-20 order-7 lg:order-none">
       <img
         src="/contributor.jpeg"  // Replace with the path to your image
         alt="About Image"

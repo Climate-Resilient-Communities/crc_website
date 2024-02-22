@@ -18,7 +18,7 @@ function Landing() {
 
         <div className='space-x-8 mx-auto'>
           <a
-            href="#aboutSection"
+            href="#about"
             className="inline-block rounded px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-green-600 active:shadow-none shadow-lg bg-gradient-to-tr from-green-600 to-green-500 border-green-700 text-white"
           >
             Learn More

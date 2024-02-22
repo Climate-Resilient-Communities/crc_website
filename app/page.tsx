@@ -15,7 +15,7 @@ export default function Home() {
       <main className='relative h-[200vh] bg-[#FBFEFE]'>
         <Landing />
       </main>
-      <section id="aboutSection" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'>
+      <section id="about" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'>
         <About />
       </section>
       <Footer />

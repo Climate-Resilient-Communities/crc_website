@@ -7,12 +7,14 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Header = () => {
     const [nav, setNav] = useState(false);
+    const [overlayVisible, setOverlayVisible] = useState(false);
     const [shadow, setShadow] = useState(false);
     const [navBg, setNavBg] = useState('#FBFEFE'); 
     const [linkColor, setLinkColor] = useState('#FBFEFE'); 
 
     const handleNav = () => {
         setNav(!nav);
+        setOverlayVisible(!overlayVisible);
       };
 
     //   useEffect(() => {
@@ -40,19 +42,19 @@ const Header = () => {
 
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                <Link href='#aboutSection'>
+                <Link href='#about'>
                     <li className='rounded-lg bg-green-700 p-2 ml-0 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>About</li>
                 </Link>
                 {/* <Link href='/#skills'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Tool/Learning</li>
                 </Link> */}
-                <Link href='/contributor'>
+                <Link href='#contributor'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Contributors</li>
                 </Link>
-              <Link href=''>
+              <Link href='#collaborators'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Partnerships</li>
                 </Link>
-                <Link href='/#contact'>
+                <Link href='#team'>
                     <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Our Team</li>
                 </Link>
                 <Link href='/#contact'>
@@ -76,12 +78,23 @@ const Header = () => {
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
         }
       >
+
+            {/* Overlay */}
+            <div
+            className={
+              overlayVisible
+                ? 'fixed left-0 top-0 w-full h-full bg-black/30 z-[-1]'
+                : 'hidden'
+            }
+            onClick={handleNav}
+          ></div>
+
         {/* Side Drawer Menu */}
         <div
           className={
             nav
               ? 'fixed left-0 top-0 w-[75%] sm:w-[70%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-auto'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              : 'fixed left-[-100%] w-[75%] sm:w-[70%] md:w-[45%] h-screen top-0 p-10 ease-in duration-500'
           }
         >
           <div>
@@ -106,6 +119,7 @@ const Header = () => {
               </p>
             </div>
           </div>
+
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
@@ -118,17 +132,17 @@ const Header = () => {
                   About
                 </li>
               </Link>
-              <Link href='/contributor'>
+              <Link href='#contributor'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contributors
                 </li>
               </Link>
-              <Link href='/music'>
+              <Link href='#collaborators'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Partnerships
                 </li>
                 </Link>
-              <Link href='/#contact'>
+              <Link href='#team'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Our Team
                 </li>
