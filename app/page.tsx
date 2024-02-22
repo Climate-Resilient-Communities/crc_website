@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <div>
     <Header />
+    <main>
     <Landing />
+    </main>
 
       {/* <section id="about" className='relative z-40 -mt-[100vh] min-h-screen bg-[#F6FEFD]'> */}
         <About />

@@ -91,7 +91,7 @@ const Header = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <h1 onClick={handleDrawerButtonClick} className="link cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+              <h1 onClick={handleDrawerButtonClick} className="link cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl">
                 Climate Resilience
               </h1>
             </Link>
@@ -139,7 +139,7 @@ const Header = () => {
               </Link>
             </ul>
             <div className='pt-10'>
-              <p className='uppercase tracking-widest text-[#004225]'>
+              <p className='uppercase tracking-widest'>
                 Stay Connected
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
