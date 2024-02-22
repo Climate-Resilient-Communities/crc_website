@@ -17,16 +17,10 @@ const Header = () => {
         setOverlayVisible(!overlayVisible);
       };
 
-    //   useEffect(() => {
-    //     const handleShadow = () => {
-    //       if (window.scrollY >= 5) {
-    //         setShadow(true);
-    //       } else {
-    //         setShadow(false);
-    //       }
-    //     };
-    //     window.addEventListener('scroll', handleShadow);
-    //   }, []);
+      const handleDrawerButtonClick = () => {
+        setNav(false);
+        setOverlayVisible(false);
+      };
 
   return (
     <div 
@@ -101,7 +95,7 @@ const Header = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <h1 onClick={() => setNav(false)} className="link cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
+              <h1 onClick={handleDrawerButtonClick} className="link cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl  dark:text-white">
                 Climate Resilience
               </h1>
             </Link>
@@ -123,27 +117,27 @@ const Header = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   About
                 </li>
               </Link>
               <Link href='#contributor'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Contributors
                 </li>
               </Link>
               <Link href='#collaborators'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Partnerships
                 </li>
                 </Link>
               <Link href='#team'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Our Team
                 </li>
               </Link>
