@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Header = () => {
     const [nav, setNav] = useState(false);
@@ -37,22 +36,19 @@ const Header = () => {
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                 <Link href='#about'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-0 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>About</li>
+                    <li className='header-link'>About</li>
                 </Link>
-                {/* <Link href='/#skills'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Tool/Learning</li>
-                </Link> */}
                 <Link href='#contributor'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Contributors</li>
+                    <li className='header-link'>Contributors</li>
                 </Link>
-              <Link href='#collaborators'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Partnerships</li>
+                <Link href='#collaborators'>
+                    <li className='header-link'>Partnerships</li>
                 </Link>
                 <Link href='#team'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Our Team</li>
+                    <li className='header-link'>Our Team</li>
                 </Link>
                 <Link href='/#contact'>
-                    <li className='rounded-lg bg-green-700 p-2 ml-3 text-sm text-white uppercase opacity-75 transition hover:opacity-100'>Contact</li>
+                    <li className='header-link'>Contact</li>
                 </Link>
             </ul>
             {/* hamburger menu */}
@@ -73,15 +69,15 @@ const Header = () => {
         }
       >
 
-            {/* Overlay */}
-            <div
-            className={
-              overlayVisible
-                ? 'fixed left-0 top-0 w-full h-full bg-black/30 z-[-1]'
-                : 'hidden'
-            }
-            onClick={handleNav}
-          ></div>
+        {/* Overlay */}
+        <div
+        className={
+          overlayVisible
+              ? 'fixed left-0 top-0 w-full h-full bg-black/30 z-[-1]'
+              : 'hidden'
+          }
+          onClick={handleNav}
+        ></div>
 
         {/* Side Drawer Menu */}
         <div
