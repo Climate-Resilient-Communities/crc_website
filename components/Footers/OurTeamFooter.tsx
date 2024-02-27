@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurTeamFooter = () => {
   return (
-    <footer className="bg-[#1C4405] text-white py-12">
+    <footer className="bg-[#b2770d] text-white py-12">
       <div className="container mx-auto flex flex-wrap justify-between px-6">
         {/* Column 1: Social Media Links */}
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-6">
