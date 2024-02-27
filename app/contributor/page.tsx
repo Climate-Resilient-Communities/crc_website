@@ -158,7 +158,7 @@ export default function Contributor() {
                 Volunteering with us offers an opportunity to expand 
                 your professional network and connect with like-minded 
                 individuals who are also passionate about climate 
-                resilience and social justice. You'll build lasting 
+                resilience and social justice. You&#39;ll build lasting 
                 relationships that can benefit your career and personal 
                 growth.
                 </p>
