@@ -20,7 +20,7 @@ export default function Contributor() {
         </div>
         {/* Textbox Overlay Section */}
         <div className="w-full px-4 -mt-32 2xl:-mt-20">
-            <div className="bg-white bg-opacity-60 text-black p-6 mx-auto w-5/6 rounded-md relative">
+            <div className="bg-white bg-opacity-60 text-black p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#B20D48] mb-8 py-8 text-center">
                     About CRC
