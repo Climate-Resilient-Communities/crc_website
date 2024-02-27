@@ -42,7 +42,7 @@ export default function OurTeam() {
                 </h3>
                 
                 <div className="items-center justify-center text-center">
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {/* Row 1 */}
         <div className="flex-1 col-span-1 p-4 min-w-8">
         <img

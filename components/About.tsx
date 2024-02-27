@@ -3,7 +3,7 @@ import React from 'react'
 
 function About() {
   return (
-<section id="about" className="relative px-2 py-4 bg-gray-100 text-center">
+<section className="relative px-2 py-4 bg-gray-100 text-center">
   <div className="max-w mx-auto grid grid-cols-1 lg:grid-cols-2">
     {/* Column 1: Image */}
     <div id="about" className="scroll-mt-20 order-1 lg:order-none">
