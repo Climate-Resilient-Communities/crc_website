@@ -1,9 +1,10 @@
 import Footer from "@/components/Footer";
+import AboutFooter from "@/components/Footers/AboutFooter";
 import React from "react";
 import Header from "@/components/Header";
 import Image from "next/image";
 
-export default function Contributor() {
+export default function About() {
     return (
         <div className="flex flex-col min-h-screen">
         <Header />
@@ -138,7 +139,7 @@ export default function Contributor() {
                 </div>
             </div>
         </div>
-        <Footer />
+        <AboutFooter />
       </div>
     )
   }

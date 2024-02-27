@@ -30,7 +30,7 @@ function About() {
     </div>
 
     {/* Column 3: Contributor Section */}
-    <div className="flex flex-col items-center bg-green-500 p-8 rounded-lg order-4 lg:order-none">
+    <div className="flex flex-col items-center bg-[#3e9a0b] p-8 rounded-lg order-4 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Become a Contributor</h2>
       <p className="text-white">
       Welcome to our vibrant community of change-makers! As a Project Contributor, 
@@ -39,9 +39,11 @@ function About() {
       community engagement and partnership, or cross-functional collaboration, your 
       role is integral to driving meaningful community impact
       </p>
-      <button className="mt-4 px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:text-green-500 transition duration-300 focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200">
+      <Link href="/contributor" passHref>
+      <button className="mt-4 px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:text-[#3e9a0b] transition duration-300 focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200">
         Get Involved
       </button>
+      </Link>
     </div>
 
       {/* Column 4: Image */}
