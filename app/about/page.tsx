@@ -31,6 +31,7 @@ export default function Contributor() {
                 participate in the adaptation of climate change.
                 </p>
                 </div>
+
                 <div>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Mission
@@ -44,8 +45,7 @@ export default function Contributor() {
                 &#40;e.g., poor food security, lack of access to affordable housing, 
                 lack of equitable mobility&#41;.
                 </p>
-
-                <p className="py-4 mb-8">
+                <p className="py-4">
                 Recognizing that sustainability and justice require attention 
                 on a spectrum of issues, we focus on improving the availability, 
                 access, and utilization of climate resilience data. In doing so, 
@@ -54,8 +54,9 @@ export default function Contributor() {
                 bridge the gap between grassroots actions and top-down climate plans. 
                 </p>
                 </div>
+
                 <div>
-                <h3 className="py-4 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
+                <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Empowering Communities
                 </h3>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
@@ -90,8 +91,9 @@ export default function Contributor() {
                 and enhancing resilience. 
                 </p>
                 </div>
+
                 <div>
-                <h3 className="py-4 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
+                <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Approach
                 </h3>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
@@ -124,7 +126,7 @@ export default function Contributor() {
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Co-creation at the Core
                 </h4>
-                <p className="py-4 mb-8">
+                <p className="py-4 mb-12">
                 Community engagement is central to our project. 
                 We conduct Data Literacy Workshops to equip communities, 
                 especially youth, with the skills to interpret and 
