@@ -135,7 +135,7 @@ export default function Contributor() {
                 </h4>
                 <p className="py-4">
                 Climate change is one of the most pressing challenges 
-                of our time. By volunteering with us, you're actively 
+                of our time. By volunteering with us, you&#39;re actively 
                 contributing to a project that directly empowers 
                 marginalized communities and helps them adapt to a 
                 changing climate. Your work makes a real difference 
