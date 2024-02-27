@@ -2,15 +2,16 @@ import React from "react";
 import Header from "@/components/Header";
 import Image from "next/image";
 import PartnershipFooter from "@/components/Footers/PartnershipFooter";
+import OurTeamFooter from "@/components/Footers/OurTeamFooter";
 
-export default function Partnership() {
+export default function OurTeam() {
     return (
         <div className="flex flex-col min-h-screen">
         <Header />
         <div>
         <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover">
             <Image 
-            src="/partnershiplandingimage.jpeg"
+            src="/ourteamlandingimage.jpeg"
             alt="About Landing Page Image"
             width={1500}
             height={250}
@@ -22,27 +23,23 @@ export default function Partnership() {
         <div className="w-full px-4 -mt-32 2xl:-mt-20">
             <div className="bg-white bg-opacity-70 p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#0d48b2] font-semibold text-green mb-8 py-8 text-center">
-                    Partner With Us
+                <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#b2770d] font-semibold text-green mb-8 py-8 text-center">
+                    Meet the CRC Team
                 </h2>
                 <p>
-                At CRC,  we believe that collaboration is key 
-                to creating impactful change. We invite 
-                organizations, community groups, businesses, 
-                and individuals to join us in our mission to 
-                enhance climate resilience and advance climate 
-                justice in urban environments. Through strategic 
-                partnerships and collective action, we can address 
-                the complex challenges posed by climate change and 
-                build resilient communities that thrive in the 
-                face of adversity.
+                At Climate Resilient Communities &#40;CRC&#41;, 
+                our team is made up of passionate individuals 
+                with diverse backgrounds and expertise. 
+                Together, we collaborate to develop practical 
+                solutions, engage with communities, and create 
+                real change in our world.
                 </p>
                 </div>
 
                 <div>
-                <h4 className="justify-between pt-4 mx-auto font-bold text-center">
-                    NGOs/NPOs
-                </h4>
+                <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
+                    Project Maintenance
+                </h3>
                 <p className="py-4">
                 At CRC, we understand the pivotal role that NGOs 
                 and NPOs play in fostering positive change. Our 
@@ -116,7 +113,7 @@ export default function Partnership() {
                 </p>
             </div>
         </div>
-        <PartnershipFooter />
+        <OurTeamFooter />
       </div>
     )
   }

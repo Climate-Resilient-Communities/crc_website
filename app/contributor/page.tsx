@@ -1,8 +1,7 @@
-import Footer from "@/components/Footer";
-import AboutFooter from "@/components/Footers/AboutFooter";
 import React from "react";
 import Header from "@/components/Header";
 import Image from "next/image";
+import ContributorFooter from "@/components/Footers/ContributorFooter";
 
 export default function Contributor() {
     return (
@@ -23,7 +22,7 @@ export default function Contributor() {
         <div className="w-full px-4 -mt-32 2xl:-mt-20">
             <div className="bg-white bg-opacity-70 p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#3e9a0b] font-semibold text-green mb-8 py-8 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#1C4405] font-semibold text-green mb-8 py-8 text-center">
                     Join Us As a Project Contributor
                 </h2>
                 <p>
@@ -45,7 +44,7 @@ export default function Contributor() {
                 </h3>
                 
                 <div className="items-center justify-center text-center">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {/* Row 1 */}
         <div className="flex-1 p-4">
           <h2 className="text-lg font-semibold">Project Management</h2>
@@ -142,21 +141,39 @@ export default function Contributor() {
                 in the lives of others.
                 </p>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
-                Co-creation at the Core
+                Collaborating With a Passionate and Diverse Team: 
+                </h4>
+                <p className="py-4">
+                Our project brings together people from various 
+                backgrounds, cultures, and disciplines. You&#39;ll 
+                collaborate with a passionate and dedicated team 
+                that shares your commitment to making a positive 
+                impact. The diversity of our team ensures innovative 
+                solutions and meaningful connections
+                </p>
+                <h4 className="justify-between pt-4 mx-auto font-bold">
+                Building a Network 
                 </h4>
                 <p className="py-4 mb-12">
-                Community engagement is central to our project. 
-                We conduct Data Literacy Workshops to equip communities, 
-                especially youth, with the skills to interpret and 
-                utilize climate resilience data. Our Capacity Building 
-                Workshops will cover various aspects of climate 
-                resilience, fostering data-informed decision-making 
-                and enhancing community organizing and advocacy skills.
+                Volunteering with us offers an opportunity to expand 
+                your professional network and connect with like-minded 
+                individuals who are also passionate about climate 
+                resilience and social justice. You'll build lasting 
+                relationships that can benefit your career and personal 
+                growth.
                 </p>
+                </div>
+                <div>
+                  <p className="font-bold mb-12">
+                  To apply, please send your resume and a brief 
+                  statement of interest to volunteers@crcgreen.com. 
+                  We look forward to welcoming you to our organization 
+                  and working together to create positive change.
+                  </p>
                 </div>
             </div>
         </div>
-        <AboutFooter />
+        <ContributorFooter />
       </div>
     )
   }

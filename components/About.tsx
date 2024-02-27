@@ -8,7 +8,7 @@ function About() {
     {/* Column 1: Image */}
     <div id="about" className="scroll-mt-20 order-1 lg:order-none">
       <img
-        src="/puzzle.png"  // Replace with the path to your image
+        src="/puzzle.png"
         alt="About Image"
         className="w-full h-auto rounded-lg"
       />
@@ -49,7 +49,7 @@ function About() {
       {/* Column 4: Image */}
       <div id="contributor" className="scroll-mt-20 order-3 lg:order-none">
       <img
-        src="/contributor.jpeg"  // Replace with the path to your image
+        src="/contributor.jpeg"
         alt="About Image"
         className="w-full h-auto rounded-lg"
       />
@@ -64,7 +64,7 @@ function About() {
       />
     </div>
 
-    {/* Column 6: Collaborator Section */}
+    {/* Column 6: Partnership Section */}
     <div className=" bg-[#240DB2] p-8 rounded-lg relative flex flex-col items-center order-6 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Collaborate for Impact</h2>
       <p className="text-white">
@@ -72,9 +72,11 @@ function About() {
       partner with us to amplify our collective impact on climate resilience. Let&#39;s join 
       forces and create lasting change together!
       </p>
+      <Link href="/partnership" passHref>
       <button className="mt-4 px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:text-[#240DB2] transition duration-300 focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200">
         Learn More
       </button>
+      </Link>
     </div>
 
     {/* Column 3: The Team Section */}
@@ -86,9 +88,11 @@ function About() {
       professionals, activists, and community leaders are united by a shared 
       vision of creating resilient urban communities. 
       </p>
+      <Link href="/ourteam" passHref>
       <button className="mt-4 px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:text-[#B2770D] transition duration-300 focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200">
         Get to Know Us
       </button>
+      </Link>
     </div>
 
       {/* Column 4: Image */}
