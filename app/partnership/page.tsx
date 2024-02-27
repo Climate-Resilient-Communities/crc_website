@@ -111,7 +111,7 @@ export default function Partnership() {
                 to start a conversation today. You can also stay 
                 updated on our latest projects, events, and 
                 opportunities by signing up for our newsletter. 
-                Let's work together to build a greener, more 
+                Let&#39;s work together to build a greener, more 
                 resilient future for all.
                 </p>
             </div>

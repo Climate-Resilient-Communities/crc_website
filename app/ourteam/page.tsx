@@ -40,21 +40,46 @@ export default function OurTeam() {
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Project Maintenance
                 </h3>
-                <p className="py-4">
-                At CRC, we understand the pivotal role that NGOs 
-                and NPOs play in fostering positive change. Our 
-                project seeks to build alliances with NGOs and NPOs 
-                that share our commitment to climate resilience, 
-                climate justice and community empowerment. Specifically, 
-                we are interested in forging partnerships to address 
-                issues related to negative climate events and chronic 
-                stressors, such as poverty, inequalities, accessible 
-                transit, and affordable housing---integral components 
-                of climate resilience. By combining expertise and 
-                resources, we can work towards creating a more equity 
-                and sustainable future for marginalized and 
-                vulnerable urban communities.
-                </p>
+                
+                <div className="items-center justify-center text-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {/* Row 1 */}
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Project Management</h2>
+          <p>Coordinate project activites, manage timelines and ensure smooth execution of initiatives</p>
+        </div>
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Data & Analytics</h2>
+          <p>Analyze climate resilience and climate justice data and 
+            generate insights to inform decision making and adaptation strategies </p>
+        </div>
+        {/* Row 2 */}
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Software Development</h2>
+          <p>Maintain and enhance project website, and develop innovative 
+            solutions to improve availability, access and utilization of 
+            climate data and information</p>
+        </div>
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Community & Partnership</h2>
+          <p>Build and nurture relationship switch community stakeholders 
+            and partners to enhance collaboration and engagement </p>
+        </div>
+        {/* Row 3 */}
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Communications</h2>
+          <p>Craft compelling narratives, manage digital channels, 
+            and raise awareness about our projects and initiatives </p>
+        </div>
+        <div className="flex-1 p-4">
+          <h2 className="text-lg font-semibold">Funding</h2>
+          <p>Formulate and implement diversified and sustainable funding 
+            strategies, identify funding opportunities, write grant 
+            applications, and secure resources to support our programs</p>
+        </div>
+      </div>
+    </div>
+
                 <h4 className="justify-between pt-4 mx-auto font-bold text-center">
                 Government Agencies
                 </h4>
