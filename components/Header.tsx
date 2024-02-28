@@ -157,7 +157,7 @@ const Header = () => {
                 </li>
               </Link>
             </ul>
-            <div className='pt-10'>
+            {/* <div className='pt-10'>
               <p className='uppercase tracking-widest'>
                 Stay Connected
               </p>
@@ -189,7 +189,7 @@ const Header = () => {
                   </div>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

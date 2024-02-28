@@ -92,7 +92,7 @@ export default function OurTeam() {
           Team member C has a background in geospatial data analysis 
           and data visualization, and has worked in various industries 
           including transportation, health, and technology. 
-          Team member C has a master's degree at the University 
+          Team member C has a master&#39;s degree at the University 
           of Waterloo and was a recipient of the SSHRC Canada Graduate 
           Scholarship. This team member has previously worked for the 
           City of Toronto and the Government of Canada. 
