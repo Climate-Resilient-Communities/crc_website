@@ -98,7 +98,7 @@ function About() {
       {/* Column 4: Image */}
       <div id="team" className="scroll-mt-20 order-7 lg:order-none">
       <img
-        src="/contributor.jpeg"  // Replace with the path to your image
+        src="/ourteam.jpg"  // Replace with the path to your image
         alt="About Image"
         className="w-full h-auto rounded-lg"
       />

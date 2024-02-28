@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import Link from 'next/link';
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
@@ -27,24 +28,34 @@ const Header = () => {
     className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
 
         <div className='flex justify-between items-center w-full h-full px-5 2xl:px-16'>
+          
+          
           <Link href="/" passHref>
+            <div className='flex items-center'>
+            <Image 
+            src="/logo.jpg"
+            alt="Logo"
+            width={80}
+            height={80}
+            />
             <h1 className="link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white">
               CRC
             </h1>
+            </div>
           </Link>
 
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                <Link href='#about'>
+                <Link href='/#about'>
                     <li className='header-link'>About</li>
                 </Link>
-                <Link href='#contributor'>
+                <Link href='/#contributor'>
                     <li className='header-link'>Contributors</li>
                 </Link>
-                <Link href='#collaborators'>
+                <Link href='/#collaborators'>
                     <li className='header-link'>Partnerships</li>
                 </Link>
-                <Link href='#team'>
+                <Link href='/#team'>
                     <li className='header-link'>Our Team</li>
                 </Link>
                 <Link href='/#contact'>
@@ -91,9 +102,17 @@ const Header = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <h1 onClick={handleDrawerButtonClick} className="link cursor-pointer hover:scale-105 text-3xl font-cd-medium md:text-3xl  lg:text-2xl">
-                Climate Resilience
+              <div className='flex'>
+              <Image 
+              src="/logo.jpg"
+              alt="Logo"
+              width={150}
+              height={74}
+              />
+              <h1 onClick={handleDrawerButtonClick} className="link hidden sm:block md:cursor-pointer mx-4 hover:scale-105 text-3xl font-cd-medium md:text-3xl lg:text-2xl">
+                Climate Resilient Communities
               </h1>
+              </div>
             </Link>
 
               <div
@@ -122,17 +141,17 @@ const Header = () => {
                   About
                 </li>
               </Link>
-              <Link href='#contributor'>
+              <Link href='/#contributor'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Contributors
                 </li>
               </Link>
-              <Link href='#collaborators'>
+              <Link href='/#collaborators'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Partnerships
                 </li>
                 </Link>
-              <Link href='#team'>
+              <Link href='/#team'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Our Team
                 </li>
