@@ -29,6 +29,10 @@ html, body {
   min-width: 100vh;
 }
 
+a:link { 
+  scroll-behavior: auto !important;
+}
+
 @media screen and (max-width: 320px) {
   #__next {
     display: flex

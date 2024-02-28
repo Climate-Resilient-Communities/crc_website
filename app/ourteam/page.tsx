@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "@/components/Header";
 import Image from "next/image";
-import PartnershipFooter from "@/components/Footers/PartnershipFooter";
 import OurTeamFooter from "@/components/Footers/OurTeamFooter";
+import {FaLinkedin} from 'react-icons/fa';
+import Link from "next/link";
 
 export default function OurTeam() {
     return (
@@ -42,18 +43,20 @@ export default function OurTeam() {
                 </h3>
                 
                 <div className="items-center justify-center text-center">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-5 md:gap-3">
         {/* Row 1 */}
-        <div className="flex-1 col-span-1 p-4 min-w-8">
-        <img
-        src="/headshots/Helena.jpg"
-        alt="Helena Yu"
-        className="w-full h-auto rounded-lg"
-        style={{ minWidth: '8px' }}
-      />
+        <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
+            <img
+            src="/headshots/Helena.jpg"
+            alt="Helena Yu"
+            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
+            />
         </div>
-        <div className="flex-1 p-4 col-span-3">
-          <h2 className="text-lg font-bold text-left">Helena Yu</h2>
+        {/* Row 2 */}
+        <div className="flex-1 p-4 col-span-3 items-center">
+          <h2 className="flex text-lg font-bold text-left">Helena Yu
+            <Link href="https://www.linkedin.com/in/helena-qiaoshan-yu/" rel="noopener noreferrer" target="_blank" passHref><FaLinkedin className="ml-4 text-lg h-6 w-6" aria-hidden="true"/></Link>
+        </h2>
           <h1 className="text-md font-semibold text-left pb-4">Project Maintainer, General & External</h1>
           <p className="text-left text-xs md:text-base">Helena is a seasoned Data Scientist with experience across various 
             industries, including technology, financial services, retail, and 

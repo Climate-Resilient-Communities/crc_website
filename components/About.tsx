@@ -22,7 +22,7 @@ function About() {
       facilitating effective, data-informed climate resilience decision-making in 
       collaboration with communities
       </p>
-      <Link href="/about" passHref>
+      <Link href="/about#aboutpagetop" passHref>
       <button className="mt-4 px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:text-[#B20D48] transition duration-300 focus:outline-none focus:border-green-500 focus:ring focus:ring-green-200">
         Read More
       </button>
