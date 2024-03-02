@@ -9,7 +9,7 @@ export default function About() {
         <div className="flex flex-col min-h-screen">
         <Header />
         <div>
-        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover">
+        <div id="aboutpagetop" className="mx-auto mt-20 flex w-full items-center justify-between object-cover">
             <Image 
             src="/aboutlandingimage.jpeg"
             alt="About Landing Page Image"

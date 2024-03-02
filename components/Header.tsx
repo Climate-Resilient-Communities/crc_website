@@ -9,8 +9,8 @@ const Header = () => {
     const [nav, setNav] = useState(false);
     const [overlayVisible, setOverlayVisible] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#FBFEFE'); 
-    const [linkColor, setLinkColor] = useState('#FBFEFE'); 
+    const [navBg, setNavBg] = useState('#FEFEFE'); 
+    const [linkColor, setLinkColor] = useState('#FFFFFF'); 
 
     const handleNav = () => {
         setNav(!nav);
@@ -46,16 +46,16 @@ const Header = () => {
 
         <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                <Link href='/#about'>
+                <Link href='/about'>
                     <li className='header-link'>About</li>
                 </Link>
-                <Link href='/#contributor'>
+                <Link href='/contributor'>
                     <li className='header-link'>Contributors</li>
                 </Link>
-                <Link href='/#collaborators'>
+                <Link href='/partnership'>
                     <li className='header-link'>Partnerships</li>
                 </Link>
-                <Link href='/#team'>
+                <Link href='/ourteam'>
                     <li className='header-link'>Our Team</li>
                 </Link>
                 <Link href='/#contact'>
@@ -94,7 +94,7 @@ const Header = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[70%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-auto'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[70%] md:w-[45%] h-screen bg-[#FFFFFF] p-10 ease-in duration-500 overflow-auto'
               : 'fixed left-[-100%] w-[75%] sm:w-[70%] md:w-[45%] h-screen top-0 p-10 ease-in duration-500'
           }
         >
@@ -102,7 +102,7 @@ const Header = () => {
             <div className='flex w-full items-center justify-between'>
 
             <Link href="/">
-              <div className='flex'>
+              <div onClick={handleDrawerButtonClick} className='flex'>
               <Image 
               src="/logo.jpg"
               alt="Logo"
@@ -136,22 +136,22 @@ const Header = () => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/about'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   About
                 </li>
               </Link>
-              <Link href='/#contributor'>
+              <Link href='/contributor'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Contributors
                 </li>
               </Link>
-              <Link href='/#collaborators'>
+              <Link href='/partnership'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Partnerships
                 </li>
                 </Link>
-              <Link href='/#team'>
+              <Link href='/ourteam'>
                 <li onClick={handleDrawerButtonClick} className='py-4 text-sm'>
                   Our Team
                 </li>
