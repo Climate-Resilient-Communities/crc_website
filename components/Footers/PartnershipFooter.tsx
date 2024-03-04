@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact';
 
 const PartnershipFooter = () => {
   return (
@@ -23,8 +24,8 @@ const PartnershipFooter = () => {
 
             {/* Column 2: Sign up for our newsletter */}
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-6">
-          <h4 className="text-lg font-semibold mb-4">Sign up for our Newsletter</h4>
-
+          <h4 className="text-lg font-semibold">Contact Us</h4>
+          <Contact />
         </div>
       </div>
     </footer>
