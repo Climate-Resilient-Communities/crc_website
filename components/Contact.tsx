@@ -27,24 +27,24 @@ export default function Contact() {
     };
   
     return (
-      <div className="p-4">
-        <form onSubmit={onSubmit} className="flex flex-col max-w-[600px] w-full">
-        <div className='grid gap-4 w-full py-2'>
-          <label className='uppercase text-sm py-2'>Name</label>
+      <div className="p-2">
+        <form onSubmit={onSubmit} className="flex flex-col w-full">
+        <div className='grid grid-cols-1 lg:grid-cols-[100px_1fr] gap-4 w-full'>
+          <label className='flex items-center uppercase text-sm'>Name</label>
           <input className="border-2 rounded-lg p-3 flex border-gray-300 text-black" type="text" name="name" placeholder='Name' required/>
 
-          <label className='uppercase text-sm py-2'>Email</label>
+          <label className='flex items-center uppercase text-sm'>Email</label>
           <input className="border-2 rounded-lg p-3 flex border-gray-300 text-black" type="email" name="email" placeholder='Email' required/>
 
-           <label className='uppercase text-sm py-2'>Subject</label>
+           <label className='flex items-center uppercase text-sm'>Subject</label>
            <input className='border-2 rounded-lg p-3 flex border-gray-300 text-black' type="text" name='subject' placeholder='Subject' />
 
-          <label className='uppercase text-sm py-2'>Message</label>
+          <label className='flex items-center uppercase text-sm'>Message</label>
           <textarea rows={4} className='border-2 rounded-lg p-3 border-gray-300 text-black' name='message' placeholder='Message' required></textarea>
         </div>
-  
-          <button type="submit" className='items-center justify-center w-full p-4 border-2 rounded-lg flex border-gray-300 hover:bg-gray-100 hover:text-black text-gray-100 mt-4'>Submit Form</button>
-  
+        <div className="flex justify-center items-center">
+          <button type="submit" className='items-center justify-center w-full p-4 border-2 rounded-lg flex border-gray-300 hover:bg-gray-100 hover:text-black text-gray-100 mt-4 max-w-[600px]'>Submit Form</button>
+        </div>
         </form>
         <div className="justify-center text-center py-4">{result}</div>
   
