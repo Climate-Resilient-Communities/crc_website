@@ -22,6 +22,8 @@ export default function Contact() {
       if (data.success) {
         setResult("Form Submitted Successfully");
         event.target.reset();
+        // Redirecting after successful form submission
+        window.location.href = "https://web3forms.com/success";
       } else {
         console.log("Error", data);
         setResult(data.message);
@@ -32,6 +34,7 @@ export default function Contact() {
       <div className="p-2">
         <form onSubmit={onSubmit} className="flex flex-col w-full">
         <div className='grid grid-cols-1 lg:grid-cols-[100px_1fr] gap-4 w-full'>
+
           <label className='flex items-center uppercase text-sm'>Name</label>
           <input className="border-2 rounded-lg p-3 flex border-gray-300 text-black" type="text" name="name" placeholder='Name' required/>
 
@@ -45,10 +48,10 @@ export default function Contact() {
           <textarea rows={4} className='border-2 rounded-lg p-3 border-gray-300 text-black' name='message' placeholder='Message' required></textarea>
         </div>
         <div className="flex justify-center items-center">
-            <input type="hidden" name="redirect" value="https://web3forms.com/success"></input>
           <button type="submit" className='items-center justify-center w-full p-4 border-2 rounded-lg flex border-gray-300 hover:bg-gray-100 hover:text-black text-gray-100 mt-4 max-w-[600px]'>Submit Form</button>
         </div>
         </form>
+        {/* Optional Success Message on Same Page */}
         {/* <div className="justify-center text-center py-4">{result}</div> */}
   
       </div>
