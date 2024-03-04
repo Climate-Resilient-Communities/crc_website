@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
             {/* Column 2: Sign up for our newsletter */}
-        <div className="w-full sm:w-1/2 md:w-2/3 lg:w-3/4">
+        <div id="contact" className="w-full sm:w-1/2 md:w-2/3 lg:w-3/4">
           <h4 className="text-lg font-semibold">Contact Us</h4>
           <Contact />
         </div>
