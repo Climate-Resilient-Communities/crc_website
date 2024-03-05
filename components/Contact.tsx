@@ -22,7 +22,6 @@ export default function Contact() {
       if (data.success) {
         setResult("Form Submitted Successfully");
         event.target.reset();
-        // Redirecting after successful form submission
         window.location.href = "https://web3forms.com/success";
       } else {
         console.log("Error", data);
