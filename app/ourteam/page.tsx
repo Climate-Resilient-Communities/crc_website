@@ -129,7 +129,7 @@ export default function OurTeam() {
             {/* Row 1 */}
             <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
             <img
-            src="/headshots/Kate.jpg"
+            src="/headshots/kate.jpg"
             alt="Kate"
             className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
             />
@@ -150,6 +150,25 @@ export default function OurTeam() {
           </p>
         </div>
 
+        {/* Row 1 */}
+        <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
+            <img
+            src="/headshots/Asrar.jpg"
+            alt="Asrar"
+            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
+            />
+        </div>
+        {/* Row 2 */}
+        <div className="flex-1 p-4 col-span-3 items-center">
+          <h2 className="flex text-lg font-bold text-left">Asrar Syed
+            <Link href="https://www.linkedin.com/in/munirulasrar/" rel="noopener noreferrer" target="_blank" passHref><FaLinkedin className="ml-4 text-lg h-6 w-6" aria-hidden="true"/></Link>
+        </h2>
+          <h1 className="text-md font-semibold text-left pb-4">Project Maintainer, Partnership</h1>
+          <p className="text-left text-xs md:text-base">
+          
+          </p>
+        </div>
+
       </div>
 
        <div>
@@ -161,12 +180,12 @@ export default function OurTeam() {
        <div className="container mx-auto px-4">
         {/* Row 1 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center text-center gap-4">
-        <div className="w-48 h-56 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+        <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <div className="flex flex-col items-center justify-center h-full">
             <img
             src="/headshots/Danny.png"
             alt="Danny"
-            className="w-full h-auto object-cover rounded-lg min-w-[50px] min-h-[50px] max-h-[150px]"
+            className="w-full h-auto object-cover rounded-lg"
             />
             <h1 className="mt-4 mb-2 text-xl font-bold">Danny Kim</h1>
             <p className="text-md">
@@ -175,11 +194,11 @@ export default function OurTeam() {
           </div>
         </div>
 
-          <div className="w-48 h-56 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <img
             src="/headshots/Claire.jpg"
             alt="Helena Yu"
-            className="w-full h-auto object-cover rounded-lg min-w-[50px] min-h-[50px] max-h-[250px]"
+            className="w-full h-auto object-cover rounded-lg"
             />
             <h1 className="mt-4 mb-2 text-xl font-bold">Claire Phillips</h1>
             <p className="text-md">
@@ -187,11 +206,11 @@ export default function OurTeam() {
           </p>
           </div>
 
-          <div className="w-48 h-56 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <img
             src="/headshots/Farhad-TT.jpg"
             alt="Helena Yu"
-            className="w-full h-auto object-cover rounded-lg min-w-[50px] min-h-[50px] max-h-[150px]"
+            className="w-full h-auto object-cover rounded-lg"
             />
             <h1 className="mt-4 mb-2 text-xl font-bold">Farhad Sadeghlo</h1>
             <p className="text-md">
@@ -199,11 +218,11 @@ export default function OurTeam() {
           </p>
           </div>
 
-          <div className="w-48 h-56 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <img
             src="/headshots/Ahnaf.png"
             alt="Ahnaf"
-            className="w-full h-auto object-cover rounded-lg min-w-[50px] max-h-[150px]"
+            className="w-full h-auto object-cover rounded-lg"
             />
             <h1 className="mt-4 mb-2 text-xl font-bold">Ahnaf Aziz</h1>
             <p className="text-md">
@@ -211,11 +230,11 @@ export default function OurTeam() {
           </p>
           </div>
 
-          <div className="w-48 h-56 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <img
             src="/headshots/Pira.jpg"
             alt="Ahnaf"
-            className="w-full h-auto object-cover rounded-lg min-w-[50px] max-h-[150px]"
+            className="w-full h-auto object-cover rounded-lg"
             />
             <h1 className="mt-4 mb-2 text-xl font-bold">Pirashan Ravi</h1>
             <p className="text-md">
