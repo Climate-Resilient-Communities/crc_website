@@ -129,7 +129,7 @@ export default function OurTeam() {
             {/* Row 1 */}
             <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
             <img
-            src="/headshots/Kate.jpeg"
+            src="/headshots/Kate.jpg"
             alt="Kate"
             className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
             />
