@@ -15,11 +15,13 @@ export default function Contributor() {
             width={1500}
             height={250}
             layout="responsive"
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64"
             />
         </div>
         </div>
         {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-32 2xl:-mt-20">
+        <div className="w-full px-4 -mt-28 2xl:-mt-20">
             <div className="bg-white bg-opacity-70 px-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#1C4405] font-semibold text-green mb-8 py-8 text-center">

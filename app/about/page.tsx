@@ -15,6 +15,8 @@ export default function About() {
             width={1500}
             height={250}
             layout="responsive"
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64"
             />
         </div>
         </div>

@@ -17,11 +17,13 @@ export default function OurTeam() {
             width={1500}
             height={250}
             layout="responsive"
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64"
             />
         </div>
         </div>
         {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-32 2xl:-mt-20">
+        <div className="w-full px-4 -mt-28 2xl:-mt-20">
             <div className="bg-white bg-opacity-70 p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#b2770d] font-semibold text-green mb-8 py-4 text-center">
@@ -131,7 +133,7 @@ export default function OurTeam() {
             <img
             src="/headshots/kate.jpg"
             alt="Kate"
-            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
+            className="w-full h-auto rounded-lg"
             />
         </div>
         {/* Row 2 */}
