@@ -48,10 +48,13 @@ export default function OurTeam() {
       <div className="grid grid-cols-1 md:grid-cols-5 md:gap-3">
         {/* Row 1 */}
         <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
-            <img
+            <Image 
             src="/headshots/Helena.jpg"
             alt="Helena Yu"
-            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
             />
         </div>
         {/* Row 2 */}
@@ -74,10 +77,13 @@ export default function OurTeam() {
         </div>
         {/* Row 1 */}
         <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
-            <img
+        <Image
             src="/headshots/Q.jpg"
-            alt="Helena Yu"
-            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
+            alt="Q Chen"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
             />
         </div>
         {/* Row 2 */}
@@ -102,11 +108,14 @@ export default function OurTeam() {
         </div>
         {/* Row 1 */}
         <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
-            <img
+        <Image
             src="/headshots/Diego.jpeg"
             alt="Diego"
-            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
-            />
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
         </div>
         {/* Row 2 */}
         <div className="flex-1 p-4 col-span-3 items-center">
@@ -130,11 +139,14 @@ export default function OurTeam() {
         </div>
             {/* Row 1 */}
             <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
-            <img
-            src="/headshots/kate.jpg"
-            alt="Kate"
-            className="w-full h-auto rounded-lg"
-            />
+            <Image
+                src="/headshots/kate.jpg"
+                alt="Kate"
+                width={350}
+                height={200}
+                className="rounded-lg"
+                layout="intrinsic"
+              />
         </div>
         {/* Row 2 */}
         <div className="flex-1 p-4 col-span-3 items-center">
@@ -154,11 +166,14 @@ export default function OurTeam() {
 
         {/* Row 1 */}
         <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
-            <img
+        <Image
             src="/headshots/Asrar.jpg"
             alt="Asrar"
-            className="w-full h-auto rounded-lg min-w-[150px] min-h-[200px] max-w-[350px]"
-            />
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
         </div>
         {/* Row 2 */}
         <div className="flex-1 p-4 col-span-3 items-center">
@@ -184,11 +199,14 @@ export default function OurTeam() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center text-center gap-4">
         <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
             <div className="flex flex-col items-center justify-center h-full">
-            <img
+            <Image
             src="/headshots/Danny.png"
             alt="Danny"
-            className="w-full h-auto object-cover rounded-lg"
-            />
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
             <h1 className="mt-4 mb-2 text-xl font-bold">Danny Kim</h1>
             <p className="text-md">
             Data Scientist
@@ -197,11 +215,14 @@ export default function OurTeam() {
         </div>
 
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
-            <img
+          <Image
             src="/headshots/Claire.jpg"
-            alt="Helena Yu"
-            className="w-full h-auto object-cover rounded-lg"
-            />
+            alt="Claire"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
             <h1 className="mt-4 mb-2 text-xl font-bold">Claire Phillips</h1>
             <p className="text-md">
             Data Scientist
@@ -209,11 +230,14 @@ export default function OurTeam() {
           </div>
 
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
-            <img
+          <Image
             src="/headshots/Farhad-TT.jpg"
-            alt="Helena Yu"
-            className="w-full h-auto object-cover rounded-lg"
-            />
+            alt="Farhad"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
             <h1 className="mt-4 mb-2 text-xl font-bold">Farhad Sadeghlo</h1>
             <p className="text-md">
             Data Scientist
@@ -221,11 +245,14 @@ export default function OurTeam() {
           </div>
 
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
-            <img
+          <Image
             src="/headshots/Ahnaf.png"
             alt="Ahnaf"
-            className="w-full h-auto object-cover rounded-lg"
-            />
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
             <h1 className="mt-4 mb-2 text-xl font-bold">Ahnaf Aziz</h1>
             <p className="text-md">
             Project Manager
@@ -233,11 +260,14 @@ export default function OurTeam() {
           </div>
 
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
-            <img
+          <Image
             src="/headshots/Pira.jpg"
-            alt="Ahnaf"
-            className="w-full h-auto object-cover rounded-lg"
-            />
+            alt="Pira"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
             <h1 className="mt-4 mb-2 text-xl font-bold">Pirashan Ravi</h1>
             <p className="text-md">
             Web Dev Lead
