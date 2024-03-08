@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 
 const Header = () => {
     const [nav, setNav] = useState(false);
@@ -29,11 +28,10 @@ const Header = () => {
 
         <div className='flex justify-between items-center w-full h-full px-5 2xl:px-16'>
           
-          
           <Link href="/" passHref>
             <div className='flex items-center'>
             <Image 
-            src="/logo.jpg"
+            src="/logo-compressed.jpg"
             alt="Logo"
             width={80}
             height={80}
