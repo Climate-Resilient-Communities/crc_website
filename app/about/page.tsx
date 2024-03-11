@@ -8,7 +8,7 @@ export default function About() {
         <div className="flex flex-col min-h-screen">
         <Header />
         <div>
-        <div id="aboutpagetop" className="mx-auto mt-20 flex w-full items-center justify-between object-cover">
+        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover 2xl:h-[calc(100vh-280px)]">
             <Image 
             src="/aboutlandingimage.jpeg"
             alt="About Landing Page Image"
@@ -21,10 +21,10 @@ export default function About() {
         </div>
         </div>
         {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-32 2xl:-mt-20">
+        <div className="w-full px-4 -mt-32 2xl:-mt-80">
             <div className="bg-white bg-opacity-60 text-black p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#B20D48] mb-8 py-8 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl 2xl:mb-56 2xl:mt-48 font-semibold text-[#B20D48] mb-8 py-8 text-center">
                     About CRC
                 </h2>
                 <p>

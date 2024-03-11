@@ -8,7 +8,7 @@ export default function Contributor() {
         <div className="flex flex-col min-h-screen">
         <Header />
         <div>
-        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover">
+        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover 2xl:h-[calc(100vh-480px)]">
             <Image 
             src="/contributorlandingimage.jpeg"
             alt="About Landing Page Image"
@@ -21,10 +21,10 @@ export default function Contributor() {
         </div>
         </div>
         {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-28 2xl:-mt-20">
+        <div className="w-full px-4 -mt-28 lg:-mt-80 2xl:-mt-20">
             <div className="bg-white bg-opacity-70 px-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
                 <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#1C4405] font-semibold text-green mb-8 py-8 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl lg:mt-24 lg:mb-44 2xl:text-7xl 2xl:mb-56 2xl:mt-48 text-[#1C4405] font-semibold text-green mb-8 py-8 text-center">
                     Join Us As a Contributor
                 </h2>
                 <p>
