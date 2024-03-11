@@ -15,7 +15,7 @@ function About() {
     </div>
 
     {/* Column 2: About Section */}
-    <div className=" bg-[#B20D48] p-8 rounded-lg relative flex flex-col items-center order-2 lg:order-none">
+    <div className=" bg-[#B20D48] p-8 rounded-lg relative flex flex-col items-center justify-center order-2 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">About Our Organization</h2>
       <p className="text-white">
       We aim to bridge the gap between top-down climate plans and grassroots actions, 
@@ -30,7 +30,7 @@ function About() {
     </div>
 
     {/* Column 3: Contributor Section */}
-    <div className="flex flex-col items-center bg-[#3e9a0b] p-8 rounded-lg order-4 lg:order-none">
+    <div className="flex flex-col items-center justify-center bg-[#3e9a0b] p-8 rounded-lg order-4 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Become a Contributor</h2>
       <p className="text-white">
       Welcome to our vibrant community of change-makers! As a Project Contributor, 
@@ -65,7 +65,7 @@ function About() {
     </div>
 
     {/* Column 6: Partnership Section */}
-    <div className=" bg-[#240DB2] p-8 rounded-lg relative flex flex-col items-center order-6 lg:order-none">
+    <div className=" bg-[#240DB2] p-8 rounded-lg relative flex flex-col items-center justify-center order-6 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">Collaborate for Impact</h2>
       <p className="text-white">
       Whether you are NPOs, government agencies, academic groups or community groups, 
@@ -80,7 +80,7 @@ function About() {
     </div>
 
     {/* Column 3: The Team Section */}
-    <div className="flex flex-col items-center bg-[#B2770D] p-8 rounded-lg order-8 lg:order-none">
+    <div className="flex flex-col items-center justify-center bg-[#B2770D] p-8 rounded-lg order-8 lg:order-none">
       <h2 className="text-3xl font-semibold text-white mb-4">The Team</h2>
       <p className="text-white">
       At the core of CRC lies a passionate team committed to driving positive 

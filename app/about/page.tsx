@@ -57,10 +57,13 @@ export default function About() {
                 </p>
                 </div>
 
-                <div>
+
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Empowering Communities
                 </h3>
+                <div className="items-center justify-center text-center">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Informed and Engaged Communities
                 </h4>
@@ -73,6 +76,8 @@ export default function About() {
                 is on empowering youth to become ambassadors for climate 
                 resilience and climate justice within their communities.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Actionable Insights
                 </h4>
@@ -81,6 +86,8 @@ export default function About() {
                 timely and effective adaptation measures, ensuring they 
                 can respond to climate resilience challenges proactively.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Community Network Building
                 </h4>
@@ -93,11 +100,16 @@ export default function About() {
                 and enhancing resilience. 
                 </p>
                 </div>
+                </div>
+                </div>
 
-                <div>
+
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Approach
                 </h3>
+                <div className="items-center justify-center text-center">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Community-Centric Solutions
                 </h4>
@@ -113,6 +125,8 @@ export default function About() {
                 addressing their immediate concerns like food insecurity 
                 and inadequate housing conditions.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Transparency and Collaboration
                 </h4>
@@ -125,6 +139,8 @@ export default function About() {
                 at the forefront, driving decisions and rapid prototyping 
                 in collaboration with stakeholders.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Co-creation at the Core
                 </h4>
@@ -137,6 +153,8 @@ export default function About() {
                 resilience, fostering data-informed decision-making 
                 and enhancing community organizing and advocacy skills.
                 </p>
+                </div>
+                </div>
                 </div>
             </div>
         </div>

@@ -83,10 +83,15 @@ export default function Contributor() {
         </div>
       </div>
     </div>
+    </div>
 
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Initiatives
                 </h3>
+
+                <div className="items-center justify-center text-center">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Youth Data Literacy Workshops
                 </h4>
@@ -97,6 +102,8 @@ export default function Contributor() {
                 understanding of how to leverage climate data and 
                 information to improve their communities&#39; health and well-being
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Climate LLM App
                 </h4>
@@ -106,6 +113,8 @@ export default function Contributor() {
                 Retrieval Augmented Generation&#41; to improve access to 
                 climate data and insights 
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Climate Change Impact Chains
                 </h4>
@@ -117,11 +126,16 @@ export default function Contributor() {
                 decision making
                 </p>
                 </div>
+                </div>
+                </div>
 
-                <div>
+
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Benefits of Volunteering With Us
                 </h3>
+                <div className="items-center justify-center text-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+                  <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Gaining Experience in Climate Resilience and Cutting-edge Technologies 
                 </h4>
@@ -131,6 +145,8 @@ export default function Contributor() {
                 change. This experience can be invaluable for your career 
                 and personal development.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Contributing to a Meaningful Cause
                 </h4>
@@ -142,6 +158,8 @@ export default function Contributor() {
                 changing climate. Your work makes a real difference 
                 in the lives of others.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Collaborating With a Passionate and Diverse Team: 
                 </h4>
@@ -153,6 +171,8 @@ export default function Contributor() {
                 impact. The diversity of our team ensures innovative 
                 solutions and meaningful connections
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Building a Network 
                 </h4>
@@ -165,8 +185,11 @@ export default function Contributor() {
                 growth.
                 </p>
                 </div>
+                </div>
+                </div>
+
                 <div>
-                  <p className="font-bold mb-12">
+                  <p className="font-bold my-12">
                   To apply, please send your resume and a brief 
                   statement of interest to volunteers@crcgreen.com. 
                   We look forward to welcoming you to our organization 

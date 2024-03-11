@@ -41,6 +41,8 @@ export default function Partnership() {
                 </p>
                 </div>
 
+                <div className="items-center justify-center text-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
                 <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold text-center">
                     NGOs/NPOs
@@ -60,6 +62,8 @@ export default function Partnership() {
                 and sustainable future for marginalized and 
                 vulnerable urban communities.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold text-center">
                 Government Agencies
                 </h4>
@@ -75,6 +79,8 @@ export default function Partnership() {
                 by supporting and strengthening the implementation 
                 of climate plans.
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold text-center">
                     Academic Groups
                 </h4>
@@ -89,6 +95,8 @@ export default function Partnership() {
                 within communities, laying the foundation of 
                 sustainable resilience. 
                 </p>
+                </div>
+                <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold text-center">
                     Community Groups
                 </h4>
@@ -107,7 +115,8 @@ export default function Partnership() {
                 and effectiveness of climate resilience efforts.
                 </p>
                 </div>
-                <p className="font-bold text-sm mb-12">
+                </div>
+                <p className="font-bold text-sm my-12">
                 Ready to partner with us or learn more about our 
                 initiatives? Email us at partnership@crcgreen.com 
                 to start a conversation today. You can also stay 
@@ -116,6 +125,7 @@ export default function Partnership() {
                 Let&#39;s work together to build a greener, more 
                 resilient future for all.
                 </p>
+                </div>
             </div>
         </div>
         <PartnershipFooter />
