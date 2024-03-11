@@ -94,15 +94,15 @@ export default function OurTeam() {
           <h1 className="text-md font-semibold text-left pb-4">Project Maintainer, Data Analytics</h1>
           <p className="text-left text-xs md:text-base">
           Q is a Data Analyst at the School of Cities with the 
-          University of Toronto. This team member is interested 
+          University of Toronto. She is interested 
           in future cities, their sustainable adaptation and 
           development, and their digital strategy and data governance. 
-          Team member C has a background in geospatial data analysis 
+          Q has a background in geospatial data analysis 
           and data visualization, and has worked in various industries 
           including transportation, health, and technology. 
-          Team member C has a master&#39;s degree at the University 
+          Q has a master&#39;s degree at the University 
           of Waterloo and was a recipient of the SSHRC Canada Graduate 
-          Scholarship. This team member has previously worked for the 
+          Scholarship. She has previously worked for the 
           City of Toronto and the Government of Canada. 
             </p>
         </div>
@@ -182,7 +182,9 @@ export default function OurTeam() {
         </h2>
           <h1 className="text-md font-semibold text-left pb-4">Project Maintainer, Partnership</h1>
           <p className="text-left text-xs md:text-base">
-          
+          Asrar is an economic policy advisor with the Government of Ontario, specializing in quantitative analysis, policy analysis, and research.
+          His interests include development economics, statistics, and social policy. He has considerable experience working in the non-profit space, both from strategic and grassroots capacities.
+          Asrar holds undergraduate degrees in Economics and Mathematics from McGill University.
           </p>
         </div>
 
