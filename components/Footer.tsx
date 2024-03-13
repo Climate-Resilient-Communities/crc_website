@@ -7,10 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-wrap justify-between px-6">
         {/* Column 1: Social Media Links */}
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-6">
-          <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-          <p className='text-xs pb-2'>
-            Let&#39;s Connect for Change!
-          </p>
+          <h4 className="text-lg font-semibold mb-4">Let&#39;s Connect for Change!</h4>
           <p className='text-xs pb-2'>
            Have questions, ideas, or just want
            to say hello? We&#39;d love to hear from you! Reach out to us 
