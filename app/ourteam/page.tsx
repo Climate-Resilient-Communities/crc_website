@@ -9,27 +9,26 @@ export default function OurTeam() {
     return (
         <div className="flex flex-col min-h-screen">
         <Header />
-        <div>
-        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover 2xl:h-[calc(100vh-480px)]">
+
+        {/* Landing Image and Title */}
+        <div className="mx-auto mt-20 w-full" style={{ height: 'calc(100vh - 80px)' }}>
+          <div className="absolute top-0 left-0 z-0 w-full h-full">
             <Image 
             src="/ourteamlandingimage.jpeg"
             alt="About Landing Page Image"
-            width={1500}
-            height={250}
-            layout="responsive"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64"
             />
-        </div>
-        </div>
-        {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-28 lg:-mt-80 2xl:-mt-20">
-            <div className="bg-white bg-opacity-70 p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
-                <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl lg:mb-44 lg:mt-24 2xl:text-7xl 2xl:mb-56 2xl:mt-48 text-[#b2770d] font-semibold text-green mb-8 py-4 text-center">
-                    Meet the CRC Team
+          </div>
+          <div className="relative inset-0 z-10 flex justify-center items-end h-full">
+                <div className="w-3/4 h-4/6 lg:h-1/2 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#b2770d] text-center">
+                  Meet the CRC Team
                 </h2>
-                <p>
+                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#b2770d] text-center">
                 At Climate Resilient Communities &#40;CRC&#41;, 
                 our team is made up of passionate individuals 
                 with diverse backgrounds and expertise. 
@@ -38,6 +37,11 @@ export default function OurTeam() {
                 real change in our world.
                 </p>
                 </div>
+            </div>
+        </div>
+        {/* Textbox Overlay Section */}
+        <div className="flex flex-col justify-center items-center py-12">
+            <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
 
                 <div>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">

@@ -7,27 +7,26 @@ export default function Partnership() {
     return (
         <div className="flex flex-col min-h-screen">
         <Header />
-        <div>
-        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover 2xl:h-[calc(100vh-280px)]">
+
+        {/* Landing Image and Title */}
+        <div className="mx-auto mt-20 w-full" style={{ height: 'calc(100vh - 80px)' }}>
+            <div className="absolute top-0 left-0 z-0 w-full h-full">
             <Image 
             src="/partnershiplandingimage.jpeg"
-            alt="About Landing Page Image"
-            width={1500}
-            height={250}
-            layout="responsive"
+            alt="Partnership Landing Page Image"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64"
             />
-        </div>
-        </div>
-        {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-32 lg:-mt-80">
-            <div className="bg-white bg-opacity-70 p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
-                <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl lg:mt-24 lg:mb-36 2xl:text-7xl 2xl:mb-56 2xl:mt-48 text-[#0d48b2] font-semibold text-green mb-8 py-8 text-center">
+            </div>
+            <div className="relative inset-0 z-10 flex justify-center items-end h-full">
+                <div className="w-3/4 h-4/6 lg:h-1/2 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#0d48b2] text-center">
                     Partner With Us
                 </h2>
-                <p>
+                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#0d48b2] text-center">
                 At CRC,  we believe that collaboration is key 
                 to creating impactful change. We invite 
                 organizations, community groups, businesses, 
@@ -40,6 +39,12 @@ export default function Partnership() {
                 face of adversity.
                 </p>
                 </div>
+            </div>
+        </div>
+
+        {/* Page Content */}
+        <div className="flex flex-col justify-center items-center py-12">
+            <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
 
                 <div className="items-center justify-center text-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
