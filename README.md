@@ -1,8 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Clone the repository using 
 
-First, run the development server:
+```bash
+git clone https://github.com/Climate-Resilient-Communities/crc_website.git
+```
+
+To set up dependencies run
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
