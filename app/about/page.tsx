@@ -5,35 +5,39 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col">
         <Header />
-        <div>
-        <div className="mx-auto mt-20 flex w-full items-center justify-between object-cover 2xl:h-[calc(100vh-280px)]">
+
+        {/* Landing Image and Header */}
+        <div className="mx-auto mt-20 w-full" style={{ height: 'calc(100vh - 80px)' }}>
+            <div className="absolute top-0 left-0 z-0 w-full h-full">
             <Image 
             src="/aboutlandingimage.jpeg"
             alt="About Landing Page Image"
-            width={1500}
-            height={250}
-            layout="responsive"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64"
             />
-        </div>
-        </div>
-        {/* Textbox Overlay Section */}
-        <div className="w-full px-4 -mt-32 2xl:-mt-80">
-            <div className="bg-white bg-opacity-60 text-black p-6 mx-auto w-5/6 2xl:w-3/4 rounded-md relative">
-                <div className="flex flex-col mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl 2xl:mb-56 2xl:mt-48 font-semibold text-[#B20D48] mb-8 py-8 text-center">
+            </div>
+            <div className="relative inset-0 z-10 flex justify-center items-end h-full">
+                <div className="w-3/4 h-1/2 bg-opacity-60 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#B20D48] text-center">
                     About CRC
                 </h2>
-                <p>
+                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-center">
                 We envision a low-carbon, socially-just future in urban environments 
                 &#40;e.g. Toronto&#41; with caring and resilient communities that actively 
                 participate in the adaptation of climate change.
                 </p>
                 </div>
+            </div>
+        </div>
 
+        {/* Page Content */}
+        <div className="flex flex-col justify-center items-center py-12">
+            <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
                 <div>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Mission
@@ -56,7 +60,6 @@ export default function About() {
                 bridge the gap between grassroots actions and top-down climate plans. 
                 </p>
                 </div>
-
 
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Empowering Communities
@@ -107,9 +110,9 @@ export default function About() {
                 <h3 className="py-4 my-8 text-center justify-between pt-4 mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Approach
                 </h3>
-                <div className="items-center justify-center text-center">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div>
+            <div className="items-center justify-center text-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Community-Centric Solutions
                 </h4>
@@ -125,8 +128,8 @@ export default function About() {
                 addressing their immediate concerns like food insecurity 
                 and inadequate housing conditions.
                 </p>
-                </div>
-                <div>
+            </div>
+            <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                     Transparency and Collaboration
                 </h4>
@@ -139,8 +142,8 @@ export default function About() {
                 at the forefront, driving decisions and rapid prototyping 
                 in collaboration with stakeholders.
                 </p>
-                </div>
-                <div>
+            </div>
+            <div>
                 <h4 className="justify-between pt-4 mx-auto font-bold">
                 Co-creation at the Core
                 </h4>
@@ -153,9 +156,10 @@ export default function About() {
                 resilience, fostering data-informed decision-making 
                 and enhancing community organizing and advocacy skills.
                 </p>
-                </div>
-                </div>
-                </div>
+            </div>
+
+            </div>
+            </div>
             </div>
         </div>
         <AboutFooter />

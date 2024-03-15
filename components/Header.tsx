@@ -36,10 +36,10 @@ const Header = () => {
             width={80}
             height={80}
             />
-            <h1 className="link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white md:hidden lg:block">
+            <h1 className="link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white md:hidden lg:block xs:hidden sm:block">
               Climate Resilient Communities
             </h1>
-            <h1 className='link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white hidden md:block lg:hidden'>
+            <h1 className='link ml-5 cursor-pointer hover:scale-105 text-xl font-cd-medium md:text-2xl  lg:text-2xl  dark:text-white hidden md:block lg:hidden xs:block sm:hidden'>
               CRC
             </h1>
             </div>
