@@ -168,7 +168,7 @@ export default function OurTeam() {
         <div className="inset-o flex items-center justify-center w-full col-span-2 flex-1 p-4 min-w-8 ">
         <Image
             src="/headshots/Asrar.jpg"
-            alt="Asrar"
+            alt="Asrar Syed"
             width={350}
             height={200}
             className="rounded-lg"
@@ -203,7 +203,7 @@ export default function OurTeam() {
             <div className="flex flex-col items-center justify-center h-full">
             <Image
             src="/headshots/Danny.png"
-            alt="Danny"
+            alt="Danny Kim"
             width={350}
             height={200}
             className="rounded-lg"
@@ -219,7 +219,7 @@ export default function OurTeam() {
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
           <Image
             src="/headshots/Claire.jpg"
-            alt="Claire"
+            alt="Claire Phillips"
             width={350}
             height={200}
             className="rounded-lg"
@@ -234,7 +234,7 @@ export default function OurTeam() {
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
           <Image
             src="/headshots/Farhad-TT.jpg"
-            alt="Farhad"
+            alt="Farhad Sadeghlo"
             width={350}
             height={200}
             className="rounded-lg"
@@ -249,7 +249,7 @@ export default function OurTeam() {
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
           <Image
             src="/headshots/Ahnaf.png"
-            alt="Ahnaf"
+            alt="Ahnaf Aziz"
             width={350}
             height={200}
             className="rounded-lg"
@@ -264,7 +264,7 @@ export default function OurTeam() {
           <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
           <Image
             src="/headshots/Pira.jpg"
-            alt="Pira"
+            alt="Pirashan Ravikumaran"
             width={350}
             height={200}
             className="rounded-lg"
@@ -275,10 +275,40 @@ export default function OurTeam() {
             Web Dev Lead
           </p>
           </div>
+
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <Image
+            src="/headshots/AndrewLambe.jpg"
+            alt="Andrew Lambe"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
+            <h1 className="mt-4 mb-2 text-xl font-bold">Andrew Lambe</h1>
+            <p className="text-md">
+            Data Scientist
+          </p>
+          </div>
+
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <Image
+            src="/headshots/Somnath_Bhattacharya.jpg"
+            alt="Somnath Bhattacharya"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
+            <h1 className="mt-4 mb-2 text-xl font-bold">Somnath Bhattacharya</h1>
+            <p className="text-md">
+            Data Scientist
+          </p>
+          </div>
+
         </div>
 
-      </div>
-
+        </div>
         </div>
         </div>
         </div>
