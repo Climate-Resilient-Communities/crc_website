@@ -272,7 +272,7 @@ export default function OurTeam() {
           />
             <h1 className="mt-4 mb-2 text-xl font-bold">Pirashan Ravi</h1>
             <p className="text-md">
-            Web Dev Lead
+            Lead Web Developer
           </p>
           </div>
 
