@@ -26,7 +26,7 @@ export default function Partnership() {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#0d48b2] text-center">
                     Partner With Us
                 </h2>
-                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#0d48b2] text-center">
+                <p className="hidden md:block w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#0d48b2] text-center">
                 At CRC,  we believe that collaboration is key 
                 to creating impactful change. We invite 
                 organizations, community groups, businesses, 
@@ -45,6 +45,18 @@ export default function Partnership() {
         {/* Page Content */}
         <div className="flex flex-col justify-center items-center py-12">
             <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
+                <p className="md:hidden my-4 font-medium">
+                At CRC,  we believe that collaboration is key 
+                to creating impactful change. We invite 
+                organizations, community groups, businesses, 
+                and individuals to join us in our mission to 
+                enhance climate resilience and advance climate 
+                justice in urban environments. Through strategic 
+                partnerships and collective action, we can address 
+                the complex challenges posed by climate change and 
+                build resilient communities that thrive in the 
+                face of adversity.
+                </p>
 
                 <div className="items-center justify-center text-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
@@ -53,7 +65,7 @@ export default function Partnership() {
                     NGOs/NPOs
                 </h4>
                 <p className="py-4">
-                At CRC, we understand the pivotal role that NGOs 
+                We understand the pivotal role that NGOs 
                 and NPOs play in fostering positive change. Our 
                 project seeks to build alliances with NGOs and NPOs 
                 that share our commitment to climate resilience, 

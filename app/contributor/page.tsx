@@ -26,14 +26,14 @@ export default function Contributor() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#1C4405] text-center">
                   Join Us As a Contributor
               </h2>
-              <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#1C4405] text-center">
+              <p className="hidden md:block w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#1C4405] text-center">
                 At CRC,  we welcome passionate individuals who are 
                 eager to contribute their skills and expertise to 
                 enhance community climate resilience and to advance 
                 climate justice in marginalized and vulnerable urban 
                 communities. 
               </p>
-              <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#1C4405] text-center">
+              <p className="hidden md:block w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#1C4405] text-center">
                 Explore the various functions you can contribute to and 
                 learn about the exciting projects we&#39;re working on!
               </p>
@@ -44,6 +44,18 @@ export default function Contributor() {
         {/* Page Content */}
       <div className="flex flex-col justify-center items-center py-12"> 
         <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
+              <p className="md:hidden my-4 font-medium">
+                At CRC,  we welcome passionate individuals who are 
+                eager to contribute their skills and expertise to 
+                enhance community climate resilience and to advance 
+                climate justice in marginalized and vulnerable urban 
+                communities. 
+              </p>
+              <p className="md:hidden my-4 font-medium">
+                Explore the various functions you can contribute to and 
+                learn about the exciting projects we&#39;re working on!
+              </p>
+
                 <div>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Functions

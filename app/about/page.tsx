@@ -26,7 +26,7 @@ export default function About() {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#B20D48] text-center">
                     About CRC
                 </h2>
-                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#7B0932] text-center">
+                <p className="hidden md:block w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#7B0932] text-center">
                 We envision a low-carbon, socially-just future in urban environments 
                 &#40;e.g. Toronto&#41; with caring and resilient communities that actively 
                 participate in the adaptation of climate change.
@@ -39,6 +39,11 @@ export default function About() {
         <div className="flex flex-col justify-center items-center py-12">
             <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
                 <div>
+                <p className="md:hidden my-4 font-medium">
+                We envision a low-carbon, socially-just future in urban environments 
+                &#40;e.g. Toronto&#41; with caring and resilient communities that actively 
+                participate in the adaptation of climate change.
+                </p>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Our Mission
                 </h3>

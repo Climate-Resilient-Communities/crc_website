@@ -28,7 +28,7 @@ export default function OurTeam() {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#b2770d] text-center">
                   Meet the CRC Team
                 </h2>
-                <p className="w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#b2770d] text-center">
+                <p className="hidden md:block w-5/6 mt-8 font-medium leading-loose text-base lg:text-lg xl:text-xl justify-center items-center text-[#b2770d] text-center">
                 At Climate Resilient Communities &#40;CRC&#41;, 
                 our team is made up of passionate individuals 
                 with diverse backgrounds and expertise. 
@@ -42,6 +42,14 @@ export default function OurTeam() {
         {/* Textbox Overlay Section */}
         <div className="flex flex-col justify-center items-center py-12">
             <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
+              <p className="md:hidden my-4 font-medium">
+                At Climate Resilient Communities &#40;CRC&#41;, 
+                our team is made up of passionate individuals 
+                with diverse backgrounds and expertise. 
+                Together, we collaborate to develop practical 
+                solutions, engage with communities, and create 
+                real change in our world.
+                </p>
 
                 <div>
                 <h3 className="py-4 text-center justify-between mx-auto text-2xl md:text-3xl lg:text-4xl font-semibold">
