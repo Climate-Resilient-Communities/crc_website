@@ -9,7 +9,7 @@ export default function About() {
         <Header />
 
         {/* Landing Image and Title*/}
-        <div className="mx-auto mt-20 w-full" style={{ height: 'calc(100lvh - 80px)' }}>
+        <div className="mx-auto mt-20 w-full" style={{ height: 'calc(100svh - 80px)' }}>
             <div className="absolute top-0 left-0 z-0 w-full h-full">
             <Image 
             src="/aboutlandingimage.jpeg"
