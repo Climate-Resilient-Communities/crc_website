@@ -47,7 +47,7 @@ export default function Contact() {
           <textarea rows={4} className='border-2 rounded-lg p-3 border-gray-300 text-black' name='message' placeholder='Message' required></textarea>
         </div>
         <div className="flex justify-center items-center">
-          <button type="submit" className='items-center justify-center w-full p-4 border-2 rounded-lg flex border-gray-300 hover:bg-gray-100 hover:text-black text-gray-100 mt-4 max-w-[600px]'>Submit Form</button>
+          <button type="submit" className='items-center justify-center w-full p-4 border-2 rounded-lg flex border-gray-300 hover:bg-gray-100 hover:text-black text-gray-100 mt-4 max-w-[600px]'>Send Email</button>
         </div>
         </form>
         {/* Optional Success Message on Same Page */}
