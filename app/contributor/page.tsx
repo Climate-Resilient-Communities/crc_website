@@ -22,7 +22,7 @@ export default function Contributor() {
             />
           </div>
           <div className="relative inset-0 z-10 flex justify-center items-end h-full">
-          <div className="w-3/4 h-4/6 lg:h-1/2 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
+          <div className="w-3/4 h-4/6 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#1C4405] text-center">
                   Join Us As a Contributor
               </h2>

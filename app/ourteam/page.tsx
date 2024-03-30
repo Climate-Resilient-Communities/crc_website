@@ -24,7 +24,7 @@ export default function OurTeam() {
             />
           </div>
           <div className="relative inset-0 z-10 flex justify-center items-end h-full">
-                <div className="w-3/4 h-4/6 lg:h-1/2 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
+                <div className="w-3/4 h-4/6 bg-opacity-80 rounded-t-lg bg-white flex flex-col justify-center items-center py-8">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-semibold text-[#b2770d] text-center">
                   Meet the CRC Team
                 </h2>
@@ -315,6 +315,51 @@ export default function OurTeam() {
             <h1 className="mt-4 mb-2 text-xl font-bold">Somnath Bhattacharya</h1>
             <p className="text-md">
             Data Scientist
+          </p>
+          </div>
+
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <Image
+            src="/headshots/JaneWong.png"
+            alt="Jane Wong"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
+            <h1 className="mt-4 mb-2 text-xl font-bold">Jane Wong</h1>
+            <p className="text-md">
+            Design Lead
+          </p>
+          </div>
+
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <Image
+            src="/headshots/LuisTicas.jpg"
+            alt="Luis Ticas"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
+            <h1 className="mt-4 mb-2 text-xl font-bold">Luis Ticas</h1>
+            <p className="text-md">
+            LLM Lead
+          </p>
+          </div>
+
+          <div className="w-48 h-72 overflow-hidden rounded-lg flex flex-col items-center justify-center mx-auto">
+          <Image
+            src="/headshots/CeciliaYu.jpg"
+            alt="Cecilia Yu"
+            width={350}
+            height={200}
+            className="rounded-lg"
+            layout="intrinsic"
+          />
+            <h1 className="mt-4 mb-2 text-xl font-bold">Cecilia Yu</h1>
+            <p className="text-md">
+            Social Media Lead
           </p>
           </div>
 
